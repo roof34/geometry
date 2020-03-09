@@ -4,10 +4,10 @@
 
 void inputcirlce(circle* c)
 {
-    printf(": ");
+    printf("input the circle's x y: ");
     scanf("%d %d", &c->O.x, &c->O.y);
-    printf("input the circle's coordinates x y  ");
-    scanf("%.2f", &c->r);
+    printf("input radius ");
+    scanf("%d", &c->r);
 }
 
 void outputcirlce(circle* c, FILE* f)
