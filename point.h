@@ -6,7 +6,7 @@ typedef struct point {
 
 typedef struct circle {
     point_t O;
-    float r;
+    int r;
 } circle;
 
 typedef struct triangle {
